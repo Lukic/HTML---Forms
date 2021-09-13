@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <form>
+      <label>Navn</label>
+      <input type="text" placeholder="Skriv dit navn her" />
+      <label>E-mail</label>
+      <input type="email" placeholder="Skriv din email adresse" required />
+
+      <label>Fødselsdag: dd.mm.yyyy</label>
+      <input type="date" placeholder="Vælg en dato" />
+
+      <label>Køn</label>
+      <select>
+        <option>Ja</option>
+        <option>Nej</option>
+        <option selected>Måske</option>
+      </select>
+      <label>Besked</label>
+      <textarea> dddd</textarea>
+
+      <input type="submit" value="Send" />
+    </form>
+  </body>
+</html>
